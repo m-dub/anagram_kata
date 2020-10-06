@@ -28,10 +28,3 @@ def run_2(word_list_file):
             anagrams[key].append(word)
 
     return anagrams
-
-'''    
-    results = open(cwd + "/anagrams2.txt", "w", encoding="utf-8", errors="surrogateescape")
-    for key in anagrams.keys():
-        results.write(str(anagrams[key]))
-        results.write("\n")
-'''

@@ -45,9 +45,3 @@ def run_1(word_list_file):
             anagrams[key].append(word)
             
     return anagrams
-'''
-    results = open(cwd + "/anagrams1.txt", "w", encoding="utf-8", errors="surrogateescape")
-    for hash_key in anagrams.keys():
-        results.write(str(anagrams[hash_key]))
-        results.write("\n")
-'''
