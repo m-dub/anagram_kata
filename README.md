@@ -6,3 +6,7 @@ To run both implementations of the exercise, run the following from the project 
 ```
 python -m scripts.main -m 3 -i wordlist.txt
 ```
+
+
+#### TODO
+* Add unit tests for non-utf8 inputs
